@@ -1,4 +1,30 @@
 nav {
+	
+}
+
+.navbar {
 	display: grid;
 	grid-template-columns: auto auto auto auto;
+	background-color: #6699CC;
+	vertical-align: middle;
+	text-align: center;
+	padding: 10%;
+}
+
+.navbar > a {
+	text-decoration: none;
+	font-family: arial;
+	color: white;
+	text-transform: uppercase;
+}
+
+a, p {
+	font-family: arial;
+	
+}
+
+body {
+	display: grid;
+	grid-template-rows: 25% auto auto;
+	margin: 0;
 }
